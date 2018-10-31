@@ -9,8 +9,8 @@ struct eConfig {
 
 struct vStore {
   char id;
-  int voltage1;
-  int voltage2;
+  unsigned int voltage1;
+  unsigned int voltage2;
 };
 
 eConfig config = {
